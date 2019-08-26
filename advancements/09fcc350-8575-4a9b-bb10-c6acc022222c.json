@@ -362,6 +362,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_glazed_terracotta": {
+    "criteria": {
+      "has_light_blue_terracotta": "2019-08-25 22:15:29 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_at_least_9_emerald": "2019-06-13 08:41:17 +0100"
@@ -900,6 +906,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2019-08-25 21:54:04 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/ender_eye": {
     "criteria": {
       "has_blaze_powder": "2019-06-11 06:16:30 +0100"
@@ -1383,6 +1395,12 @@
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_log": "2019-06-09 04:42:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2019-08-25 21:53:54 +0100"
     },
     "done": true
   },
@@ -2479,6 +2497,7 @@
       "rotten_flesh": "2019-06-18 21:48:23 +0100",
       "dried_kelp": "2019-06-09 04:32:50 +0100",
       "golden_carrot": "2019-06-11 09:50:10 +0100",
+      "cooked_chicken": "2019-08-25 22:35:55 +0100",
       "rabbit_stew": "2019-08-19 17:54:49 +0100",
       "cooked_salmon": "2019-06-09 04:28:25 +0100",
       "carrot": "2019-06-14 06:03:30 +0100"
@@ -3416,6 +3435,12 @@
   "minecraft:recipes/building_blocks/red_terracotta": {
     "criteria": {
       "has_terracotta": "2019-06-15 18:04:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2019-08-25 22:15:29 +0100"
     },
     "done": true
   },

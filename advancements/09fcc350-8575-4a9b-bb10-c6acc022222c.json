@@ -356,6 +356,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2020-03-05 10:50:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_terracotta": {
     "criteria": {
       "has_terracotta": "2019-06-15 18:04:09 +0100"
@@ -365,12 +371,6 @@
   "minecraft:recipes/decorations/light_blue_glazed_terracotta": {
     "criteria": {
       "has_light_blue_terracotta": "2019-08-25 22:15:29 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/emerald_block": {
-    "criteria": {
-      "has_at_least_9_emerald": "2019-06-13 08:41:17 +0100"
     },
     "done": true
   },
@@ -560,21 +560,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/emerald": {
-    "criteria": {
-      "has_at_least_9_emerald": "2019-06-13 08:41:17 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/prismarine_wall": {
     "criteria": {
       "has_prismarine": "2019-06-18 22:23:45 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/composter": {
-    "criteria": {
-      "has_wooden_fences": "2019-06-09 05:04:21 +0100"
     },
     "done": true
   },
@@ -614,12 +602,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/sugar": {
-    "criteria": {
-      "has_reeds": "2019-06-09 04:36:29 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
       "has_double_plant": "2019-06-14 01:54:01 +0100"
@@ -635,12 +617,6 @@
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2019-06-09 05:02:56 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gold_block": {
-    "criteria": {
-      "has_at_least_9_gold_ingot": "2019-06-09 06:40:55 +0100"
     },
     "done": true
   },
@@ -880,8 +856,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:blaze": "2019-06-11 06:02:13 +0100",
       "minecraft:pillager": "2019-06-09 07:33:30 +0100",
+      "minecraft:blaze": "2019-06-11 06:02:13 +0100",
       "minecraft:skeleton": "2019-06-09 04:24:03 +0100",
       "minecraft:zombie_pigman": "2019-06-17 17:19:42 +0100",
       "minecraft:ravager": "2019-06-17 18:33:35 +0100",
@@ -898,8 +874,8 @@
       "minecraft:husk": "2019-06-15 11:30:17 +0100",
       "minecraft:shulker": "2019-06-15 20:34:31 +0100",
       "minecraft:cave_spider": "2019-06-15 07:46:35 +0100",
-      "minecraft:silverfish": "2019-06-15 16:46:14 +0100",
       "minecraft:enderman": "2019-06-09 04:26:01 +0100",
+      "minecraft:silverfish": "2019-06-15 16:46:14 +0100",
       "minecraft:zombie": "2019-06-09 04:22:52 +0100",
       "minecraft:drowned": "2019-06-09 04:31:51 +0100",
       "minecraft:zombie_villager": "2019-06-11 07:08:21 +0100"
@@ -933,12 +909,6 @@
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2019-06-15 09:35:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_block": {
-    "criteria": {
-      "has_at_least_9_redstone": "2019-06-10 00:20:51 +0100"
     },
     "done": true
   },
@@ -1119,12 +1089,6 @@
   "minecraft:recipes/misc/coal_from_blasting": {
     "criteria": {
       "has_coal_ore": "2019-06-15 08:20:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
-    "criteria": {
-      "has_at_least_9_gold_ingot": "2019-06-09 06:40:55 +0100"
     },
     "done": true
   },
@@ -1316,7 +1280,7 @@
   },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
-      "has_at_least_9_iron_ingot": "2019-06-09 06:22:54 +0100"
+      "has_iron_ingot": "2020-03-05 10:08:18 +0000"
     },
     "done": true
   },
@@ -1706,12 +1670,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:cold_ocean": "2019-06-09 04:19:36 +0100",
       "minecraft:jungle_edge": "2019-08-20 22:02:17 +0100",
-      "minecraft:mountains": "2019-06-13 12:47:12 +0100",
+      "minecraft:cold_ocean": "2019-06-09 04:19:36 +0100",
       "minecraft:forest": "2019-06-09 05:56:25 +0100",
+      "minecraft:mountains": "2019-06-13 12:47:12 +0100",
       "minecraft:taiga": "2019-06-17 18:21:49 +0100",
       "minecraft:desert_hills": "2019-06-09 06:24:28 +0100",
+      "minecraft:giant_tree_taiga": "2020-03-05 10:24:00 +0000",
       "minecraft:deep_cold_ocean": "2019-06-09 06:51:50 +0100",
       "minecraft:desert": "2019-06-09 06:11:47 +0100",
       "minecraft:deep_frozen_ocean": "2019-06-09 05:56:01 +0100",
@@ -1725,8 +1690,8 @@
       "minecraft:savanna_plateau": "2019-06-09 06:18:32 +0100",
       "minecraft:beach": "2019-06-09 04:19:33 +0100",
       "minecraft:dark_forest": "2019-06-13 12:43:36 +0100",
-      "minecraft:lukewarm_ocean": "2019-06-11 06:58:43 +0100",
       "minecraft:river": "2019-06-09 05:57:22 +0100",
+      "minecraft:lukewarm_ocean": "2019-06-11 06:58:43 +0100",
       "minecraft:birch_forest_hills": "2019-06-15 22:12:21 +0100",
       "minecraft:wooded_mountains": "2019-06-13 12:47:30 +0100",
       "minecraft:wooded_hills": "2019-06-11 06:55:47 +0100",
@@ -1875,6 +1840,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2020-03-05 11:14:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2019-06-10 23:37:17 +0100"
@@ -1890,18 +1861,6 @@
   "minecraft:end/dragon_egg": {
     "criteria": {
       "dragon_egg": "2019-06-15 20:01:38 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_at_least_9_diamond": "2019-06-11 01:42:45 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dried_kelp_block": {
-    "criteria": {
-      "has_at_least_9_dried_kelp": "2019-06-09 04:32:48 +0100"
     },
     "done": true
   },
@@ -1938,12 +1897,6 @@
   "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
     "criteria": {
       "has_white_dye": "2019-06-10 23:46:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lapis_block": {
-    "criteria": {
-      "has_at_least_9_lapis": "2019-06-09 06:22:54 +0100"
     },
     "done": true
   },
@@ -2004,12 +1957,6 @@
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_cocoa": "2019-08-20 22:03:11 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/diamond": {
-    "criteria": {
-      "has_at_least_9_diamond": "2019-06-11 01:42:45 +0100"
     },
     "done": true
   },
@@ -2175,12 +2122,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/wheat": {
-    "criteria": {
-      "has_at_least_9_wheat": "2019-06-09 05:59:45 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2019-06-09 04:58:52 +0100"
@@ -2244,12 +2185,6 @@
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2019-06-09 04:21:03 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone": {
-    "criteria": {
-      "has_at_least_9_redstone": "2019-06-10 00:20:51 +0100"
     },
     "done": true
   },
@@ -2337,12 +2272,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal_from_bone_block": {
-    "criteria": {
-      "has_at_least_9_bonemeal": "2019-06-10 01:00:10 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2019-06-11 09:05:07 +0100"
@@ -2388,12 +2317,6 @@
   "minecraft:recipes/decorations/red_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2019-06-10 02:07:04 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/packed_ice": {
-    "criteria": {
-      "has_at_least_9_ice": "2019-06-16 13:11:18 +0100"
     },
     "done": true
   },
@@ -2478,6 +2401,12 @@
   "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2019-06-09 04:22:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_reeds": "2019-06-09 04:36:29 +0100"
     },
     "done": true
   },
@@ -2648,12 +2577,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/hay_block": {
-    "criteria": {
-      "has_at_least_9_wheat": "2019-06-09 05:59:45 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_sand": "2019-06-09 04:21:44 +0100"
@@ -2768,7 +2691,9 @@
       "minecraft:pig": "2019-06-14 05:24:53 +0100",
       "minecraft:sheep": "2019-08-22 01:43:49 +0100",
       "minecraft:cow": "2019-06-11 06:53:32 +0100",
-      "minecraft:horse": "2019-08-22 19:23:04 +0100"
+      "minecraft:chicken": "2020-03-05 10:55:59 +0000",
+      "minecraft:horse": "2019-08-22 19:23:04 +0100",
+      "minecraft:bee": "2020-03-05 10:42:47 +0000"
     },
     "done": false
   },
@@ -3030,12 +2955,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp": {
-    "criteria": {
-      "has_at_least_9_dried_kelp": "2019-06-09 04:32:48 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2019-06-10 00:41:57 +0100"
@@ -3096,15 +3015,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/blue_ice": {
-    "criteria": {
-      "has_at_least_9_packed_ice": "2019-06-16 13:11:48 +0100"
-    },
-    "done": true
-  },
   "minecraft:adventure/whos_the_pillager_now": {
     "criteria": {
       "kill_pillager": "2019-08-20 23:31:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2020-03-05 11:14:03 +0000"
     },
     "done": true
   },
@@ -3174,27 +3093,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/slime_block": {
-    "criteria": {
-      "has_at_least_9_slime_ball": "2019-08-20 15:54:02 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2019-06-10 23:37:17 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_at_least_9_gold_nugget": "2019-06-11 06:30:31 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lapis_lazuli": {
-    "criteria": {
-      "has_at_least_9_lapis": "2019-06-09 06:22:54 +0100"
     },
     "done": true
   },
@@ -3297,6 +3198,12 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2019-06-11 09:08:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2020-03-05 11:14:03 +0000"
     },
     "done": true
   },
@@ -3477,12 +3384,6 @@
   "minecraft:recipes/redstone/acacia_fence_gate": {
     "criteria": {
       "has_planks": "2019-06-15 18:40:52 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/coal_block": {
-    "criteria": {
-      "has_at_least_9_coal": "2019-06-09 04:30:05 +0100"
     },
     "done": true
   },
@@ -3708,12 +3609,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/slime_ball": {
-    "criteria": {
-      "has_at_least_9_slime_ball": "2019-08-20 15:54:02 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2019-06-09 04:22:07 +0100"
@@ -3723,12 +3618,6 @@
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2019-06-10 00:20:16 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_at_least_9_coal": "2019-06-09 04:30:05 +0100"
     },
     "done": true
   },
@@ -3894,12 +3783,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
-    "criteria": {
-      "has_at_least_9_iron_nugget": "2019-06-10 01:38:18 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2019-06-09 04:19:23 +0100"
@@ -3921,12 +3804,6 @@
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2019-06-09 05:11:21 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_at_least_9_iron_ingot": "2019-06-09 06:22:54 +0100"
     },
     "done": true
   },
@@ -3981,6 +3858,18 @@
   "minecraft:recipes/building_blocks/purpur_pillar": {
     "criteria": {
       "has_purpur_block": "2019-06-15 20:43:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2020-03-05 10:50:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/silk_touch_nest": {
+    "criteria": {
+      "silk_touch_nest": "2020-03-05 11:01:53 +0000"
     },
     "done": true
   },
@@ -4070,7 +3959,9 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
+      "textures/entity/cat/tabby.png": "2020-03-05 11:00:30 +0000",
       "textures/entity/cat/jellie.png": "2019-08-22 21:17:26 +0100",
+      "textures/entity/cat/black.png": "2020-03-05 11:06:37 +0000",
       "textures/entity/cat/ragdoll.png": "2019-06-14 07:48:17 +0100",
       "textures/entity/cat/persian.png": "2019-08-22 18:39:25 +0100"
     },
@@ -4192,9 +4083,9 @@
   },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "has_at_least_9_bonemeal": "2019-06-10 01:00:10 +0100"
+      "has_bonemeal": "2020-03-05 10:13:15 +0000"
     },
     "done": true
   },
-  "DataVersion": 1976
+  "DataVersion": 2230
 }
